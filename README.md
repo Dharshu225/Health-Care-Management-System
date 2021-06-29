@@ -2,11 +2,11 @@
 
 ## Technology Stack
   - Front End : React
-  - Server side : Spring Boot
+  - Server Side : Spring Boot
   - Core Platform : Open JDK 11
   - Database : MYSQL
  
  ## Users of Application
   - Admin
-  - Patient
-  - Doctor
+  - Patients
+  - Doctors
