@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HealthCareManagementApplication<health-care-management>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.dharshiny.healthcaremanagement.HealthCareManagementApplication",
+            "projectName": "health-care-management",
+            "args": ""
+        }
+    ]
+}
