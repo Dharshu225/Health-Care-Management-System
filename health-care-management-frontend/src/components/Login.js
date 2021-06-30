@@ -66,7 +66,7 @@ function Login() {
                     <button type='submit' className='loginbtn' disabled={!validateForm()}>Login</button>
                 </form>
             </div>
-            <p style={{textAlign:'center'}}>Not a user?<a id='newUserNav' onClick={newUserNavigate}>Click here</a></p>
+            <p style={{textAlign:'center'}}>Create an account - <a id='newUserNav' onClick={newUserNavigate}>Click here</a></p>
             {(() => {
                 if (valid) {
                     return (

@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@CrossOrigin(origins = "http://localhost:8081")
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 public class MainController {
     
@@ -86,6 +86,7 @@ public class MainController {
     @DeleteMapping("/deleteDoctor/{demail}")
     public void deleteDoctor(@PathVariable String demail){
         doctorRepository.deleteById(demail);
+        loginRepository.deleteById(demail);
     }
 
     @GetMapping(value="/doctorDetails/{demail}")
