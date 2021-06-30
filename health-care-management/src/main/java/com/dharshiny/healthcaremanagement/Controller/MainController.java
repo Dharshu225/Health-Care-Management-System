@@ -26,7 +26,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 
-@CrossOrigin(origins = "https://8081-aedfdcadaeceebeeecafddadaaafdfbabacbdeb.examlyiopb.examly.io/")
+@CrossOrigin(origins = "https://8081-aedfdcadaeceebeeecafddadbdfcaaccadadaace.examlyiopb.examly.io/")
 @RestController
 public class MainController {
     
