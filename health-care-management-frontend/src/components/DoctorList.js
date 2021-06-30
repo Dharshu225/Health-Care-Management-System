@@ -45,6 +45,7 @@ function DoctorList() {
             <div className='pageBody'>
                 <button className='back' onClick={back}>Back</button>
                 <h2 style={{marginLeft:'90px'}}>List of Doctors</h2>
+                {doctors.length===0 && <h4>No doctors available</h4>}
                 {doctors.map(
                 doctor => 
                     <div className='doctor' key = {doctor.email}>
